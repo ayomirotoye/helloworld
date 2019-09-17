@@ -1,7 +1,7 @@
 [Unit]
 Description= Helloworld application [Service]
-User=ubuntu
-Group=ubuntu
+User=root
+Group=root
 Type=simple
 ExecStart=/usr/bin/java -jar ~/ayomide/helloworld/helloworld-0.0.1-SNAPSHOT.jar
 SuccessExitStatus=143[Install]
